@@ -8,7 +8,7 @@ fs.readFile('notes.txt', 'utf-8', (err, data) => {
 });
 
 var writeIntheFile = (data) => {
-    fs.writeFile('writeTheContents.txt', data, (err, data) => {
-        console.log(data)
+    fs.writeFile('writeTheContents.txt', data, () => {
+        console.log('write complete');
     });
 }
