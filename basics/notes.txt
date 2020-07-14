@@ -13,3 +13,5 @@ How Javascript works?
 
 
 Event Emitter modules - events and util
+
+Protocols: A set of rules that two sides agree used for communicating
