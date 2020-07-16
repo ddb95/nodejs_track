@@ -15,3 +15,18 @@ How Javascript works?
 Event Emitter modules - events and util
 
 Protocols: A set of rules that two sides agree used for communicating
+
+Documentation:
+// 16-07-2020 - Day 1
+Streams and Buffers
+
+Buffers are small chunks of data that is being transferred from one place to another
+Buffers are filled with data, then passed along
+Transfer small chunks of data one at a time
+
+Streams are Stream of data that flows overtime, from one place to another
+
+
+Readable Stream: allow nodejs to read data from a Stream
+Writable Stream: allow nodejs to write data to a Stream
+Duplex: can read and write both to a Stream
