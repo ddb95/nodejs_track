@@ -30,3 +30,18 @@ Streams are Stream of data that flows overtime, from one place to another
 Readable Stream: allow nodejs to read data from a Stream
 Writable Stream: allow nodejs to write data to a Stream
 Duplex: can read and write both to a Stream
+
+17/07/2020
+Writable Streams
+
+18/07/2020
+Pipes:
+Read data using readStream and listened when we received the chunks of data and wrote the chunk of data in a file.
+This process is done manually.
+
+This can be done more elegantly using pipes.
+Pipes can be used from only a Readable Stream, not from Writable Stream
+
+19/07/2020
+Served HTML pages using readStream and created a server for this. Showed it in the browser
+Served JSON Objects and one should always JSON.stringify(Objects) before sending the JSON Objects
