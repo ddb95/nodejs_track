@@ -45,3 +45,19 @@ Pipes can be used from only a Readable Stream, not from Writable Stream
 19/07/2020
 Served HTML pages using readStream and created a server for this. Showed it in the browser
 Served JSON Objects and one should always JSON.stringify(Objects) before sending the JSON Objects
+
+21/07/2020
+Routing: set specific url and send them data(depends on what they request)
+Node Package Manager: The Routing done in 'routing.js' is very cumbersome when it includes a large number of pages in our app.
+    So, we use express package which slims this down.
+
+    Basically a bunch of command line tools which helps us to install 3rd Party packages to help out in out node app projects.
+
+    Express is such a package. 
+
+28/07/2020
+Package.json :  Information about the application
+                Keeps track of our Dependencies/Packages we need to run the application
+                We dont share the packages, we share the core development code, the packages will be downloaded in your local from package.json
+
+- npm init -> Initializes your project with a package.json
