@@ -61,3 +61,21 @@ Package.json :  Information about the application
                 We dont share the packages, we share the core development code, the packages will be downloaded in your local from package.json
 
 - npm init -> Initializes your project with a package.json
+
+29/07/2020
+Express:
+    Easy and flexible routing system for nodejs projects
+    Integrates with template engines
+    Contains middleware framework
+Install -> npm install express -save
+
+http methods
+    -get
+    -post
+    -delete
+    -put
+
+Respond to request->
+    app.get('route',function)
+    app.post('route',function)
+    app.delete('route',function)
