@@ -79,3 +79,19 @@ Respond to request->
     app.get('route',function)
     app.post('route',function)
     app.delete('route',function)
+
+30/07/2020
+Templating Engines: Dynamically render in my webpage data fetched from url or database
+    Package used: EJS6
+    npm install ejs -save
+
+Tell express we want to use ejs as view engine in app.js
+app.set('view engine','ejs')
+Now express knows we want to use ejs as view/template engine
+
+Creating a directory called view and pushed a new template called profile
+
+Passing data in a view is in Object way
+app.get('/profile/:name', (req, res) => {
+    res.render('profile', { person: req.params.name });
+});
