@@ -15,9 +15,18 @@
             text-align: center;
         }
 
-        p {
+        h2 {
+            font-size: 30px;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        p,
+        li {
             font-size: 16px;
             text-align: center;
+
         }
     </style>
     <title>
@@ -32,6 +41,12 @@
         <p>Age: <strong><%= data.age%></strong></p>
         <p>Job: <strong><%= data.job%></strong></p>
         <p>Hobby: <strong><%= data.hobby%></strong></p>
+        <h2>Languages</h2>
+        <ul>
+            <% data.languages.forEach(function(item){ %>
+            <li> <%= item %></li>
+            <% }); %>
+        </ul>
     </span>
 </body>
 

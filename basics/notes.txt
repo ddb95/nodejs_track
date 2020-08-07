@@ -95,3 +95,7 @@ Passing data in a view is in Object way
 app.get('/profile/:name', (req, res) => {
     res.render('profile', { person: req.params.name });
 });
+
+31/07/2020
+When we output a data we use <%= data %>
+When we compute(loops) a data we use <% data %>

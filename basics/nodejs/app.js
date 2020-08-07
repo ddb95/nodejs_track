@@ -37,9 +37,10 @@ app.get('/dummyDataShowCase/:name', (req, res) => {
     var data = {
         age: 34,
         job: 'SDE LIFE',
-        hobby: 'car driving'
+        hobby: 'car driving',
+        languages: ['python', 'javascript', 'node']
     }
-    res.render('dummyDataProfile', { person: req.params.name, data, data });
+    res.render('dummyDataProfile', { person: req.params.name, data: data });
 });
 
 
